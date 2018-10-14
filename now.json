@@ -1,0 +1,17 @@
+{
+  "name": "sid-van-vliet",
+  "type": "static",
+  "static": {
+    "public": "dist",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "alias": "525916",
+  "files": [
+    "dist"
+  ]
+}
