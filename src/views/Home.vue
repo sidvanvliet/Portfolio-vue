@@ -10,6 +10,8 @@
                 Aside from web development I also have great passion for user interface & user experience design.
             </p>
 
+            <h3>{{ $t('welcome') }}</h3>
+
             <div id="contact">
                 <div><i class="material-icons">alternate_email</i> &nbsp;<span class="icon-attr">sid@studio-27.nl</span></div>
                 <div><i class="material-icons">location_on</i> &nbsp;<span class="icon-attr">Utrecht, the Netherlands</span></div>

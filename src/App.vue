@@ -24,6 +24,13 @@
                     <router-link to="/privacy">Privacy Policy</router-link>
                 </div>
             </div>
+
+            <div class="mt-3">
+                <img src="img/gb.png" alt="flag_gb">
+                &nbsp;
+                <img @click="changeLang('nl');" src="img/nl.png" alt="flag_nl">
+                <language-switcher></language-switcher>
+            </div>
         </div>
 
         <main>
@@ -38,5 +45,9 @@
 </template>
 
 <script>
+    import LanguageSwitcher from "./components/LanguageSwitcher";
     require('@/assets/css/style.css');
+    export default {
+        components: {LanguageSwitcher}
+    }
 </script>
