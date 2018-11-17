@@ -27,6 +27,12 @@
             <div class="sidebar-item-sm sidebar-item-xs">
                 <router-link to="/privacy" onclick="closeMenu()">Privacy Policy</router-link>
             </div>
+
+            <div id="socials-xs">
+                <a href="https://www.linkedin.com/in/sid-van-vliet/" target="_blank">
+                    <img :src="require('./assets/linkedin_light.png')" alt="LinkedIn">
+                </a>
+            </div>
         </div>
 
         <div id="sidebar">
@@ -42,15 +48,15 @@
             <div class="sidebar-item">
                 <router-link to="/contact">Contact</router-link>
             </div>
-            <!--<div class="sidebar-item special-link">-->
-                <!--<div class="sidebar-item">-->
-                    <!--<a href="media-centre/index.html">Media Centre</a>-->
-                <!--</div>-->
-            <!--</div>-->
             <div class="sidebar-item special-link">
                 <div class="sidebar-item">
                     <router-link to="/privacy">Privacy Policy</router-link>
                 </div>
+            </div>
+            <div id="socials">
+                <a href="https://www.linkedin.com/in/sid-van-vliet/" target="_blank">
+                    <img :src="require('./assets/linkedin_dark.png')" alt="LinkedIn">
+                </a>
             </div>
         </div>
 

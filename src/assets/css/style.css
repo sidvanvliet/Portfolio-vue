@@ -61,6 +61,14 @@ body{
     opacity:0.3;
 }
 
+#socials{
+    margin-top:10px;
+}
+
+#socials-xs{
+    margin-top:15px;
+}
+
 #privacy-policy{
     padding-top:70px;
 }
