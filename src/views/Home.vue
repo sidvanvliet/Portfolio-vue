@@ -1,5 +1,6 @@
 <template>
     <div class="page">
+
         <section id="me">
 
             <div id="name">Sid van Vliet</div>
@@ -9,8 +10,6 @@
                 I'm a Full-Stack Web Developer specialized in front- and back-end development and building infrastructures.<br>
                 Aside from web development I also have great passion for user interface & user experience design.
             </p>
-
-            <h3>{{ $t('welcome') }}</h3>
 
             <div id="contact">
                 <div><i class="material-icons">alternate_email</i> &nbsp;<span class="icon-attr">sid@studio-27.nl</span></div>
@@ -23,5 +22,6 @@
             </div>
 
         </section>
+
     </div>
 </template>

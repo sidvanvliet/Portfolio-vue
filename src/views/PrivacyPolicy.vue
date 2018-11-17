@@ -72,12 +72,19 @@ Personal Data is collected for the following purposes and using the following se
 Analytics
 The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
 
-Google Analytics (Google Inc.)
-Google Analytics is a web analysis service provided by Google Inc. (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services.
+Google Analytics (Google LLC)
+Google Analytics is a web analysis service provided by Google LLC (“Google”). Google utilizes the Data collected to track and examine the use of this Application, to prepare reports on its activities and share them with other Google services.
 Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
 Personal Data collected: Cookies and Usage Data.
 
 Place of processing: United States – Privacy Policy – Opt Out. Privacy Shield participant.
+
+Hotjar Form Analysis & Conversion Funnels (Hotjar Ltd.)
+Hotjar is an analytics service provided by Hotjar Ltd.
+Hotjar honors generic Do Not Track headers. This means your browser can tell its script not to collect any of your data. This is a setting that is available in all major browsers. Find Hotjar’s opt-out information here.
+Personal Data collected: Cookies and Usage Data.
+
+Place of processing: Malta – Privacy Policy – Opt Out.
 
 The rights of Users
 Users may exercise certain rights regarding their Data processed by the Owner.
@@ -159,7 +166,7 @@ This privacy statement has been prepared based on provisions of multiple legisla
 
 This privacy policy relates solely to this Application, if not stated otherwise within this document.
 
-Latest update: August 27, 2018</pre>
+Latest update: November 17, 2018</pre>
 
         </div>
 

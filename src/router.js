@@ -17,11 +17,6 @@ export default new Router({
             component: () => import('./views/Resume.vue')
         },
         {
-            path: '/portfolio',
-            name: 'portfolio',
-            component: () => import('./views/Portfolio.vue')
-        },
-        {
             path: '/contact',
             name: 'contact',
             component: () => import('./views/Contact.vue')
@@ -30,6 +25,17 @@ export default new Router({
             path: '/privacy',
             name: 'privacy',
             component: () => import('./views/PrivacyPolicy.vue')
-        }
+        },
+        {
+            path: '/portfolio',
+            name: 'portfolio',
+            component: () => import('./views/Portfolio.vue')
+        },
+        // Portfolio items
+            {
+                path: '/portfolio/bincms',
+                name: 'bincms',
+                component: () => import('./views/Portfolio/BinCMS.vue')
+            },
     ]
 })

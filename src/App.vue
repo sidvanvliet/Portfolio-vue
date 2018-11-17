@@ -1,12 +1,40 @@
 <template>
     <div id="app">
 
+        <div id="sidebar-sm">
+            <i class="material-icons" id="toggle-menu">menu</i>
+        </div>
+
+        <div id="mobile-menu">
+            <i class="material-icons" onclick="closeMenu()">close</i>
+
+            <div class="sidebar-item-sm">
+                <router-link to="/" onclick="closeMenu()">Home</router-link>
+            </div>
+
+            <div class="sidebar-item-sm">
+                <router-link to="/resume" onclick="closeMenu()">Résumé</router-link>
+            </div>
+
+            <div class="sidebar-item-sm">
+                <router-link to="/portfolio" onclick="closeMenu()">Portfolio</router-link>
+            </div>
+
+            <div class="sidebar-item-sm">
+                <router-link to="/contact" onclick="closeMenu()">Contact</router-link>
+            </div>
+
+            <div class="sidebar-item-sm sidebar-item-xs">
+                <router-link to="/privacy" onclick="closeMenu()">Privacy Policy</router-link>
+            </div>
+        </div>
+
         <div id="sidebar">
             <div class="sidebar-item">
-                <router-link to="/">Sid van Vliet</router-link>
+                <router-link to="/">Home</router-link>
             </div>
             <div class="sidebar-item">
-                <router-link to="/resume">Resume</router-link>
+                <router-link to="/resume">Résumé</router-link>
             </div>
             <div class="sidebar-item">
                 <router-link to="/portfolio">Portfolio</router-link>
@@ -14,30 +42,21 @@
             <div class="sidebar-item">
                 <router-link to="/contact">Contact</router-link>
             </div>
-            <div class="sidebar-item special-link">
-                <div class="sidebar-item">
-                    <a href="media-centre/index.html">Media Centre</a>
-                </div>
-            </div>
+            <!--<div class="sidebar-item special-link">-->
+                <!--<div class="sidebar-item">-->
+                    <!--<a href="media-centre/index.html">Media Centre</a>-->
+                <!--</div>-->
+            <!--</div>-->
             <div class="sidebar-item special-link">
                 <div class="sidebar-item">
                     <router-link to="/privacy">Privacy Policy</router-link>
                 </div>
             </div>
-
-            <div class="mt-3">
-                <img src="img/gb.png" alt="flag_gb">
-                &nbsp;
-                <img @click="changeLang('nl');" src="img/nl.png" alt="flag_nl">
-                <language-switcher></language-switcher>
-            </div>
         </div>
 
         <main>
 
-            <!--<transition name="router-anim" enter-active-class="animated fadeIn" leave-active-class="animated fadeOut">-->
-                <router-view/>
-            <!--</transition>-->
+            <router-view/>
 
         </main>
 
@@ -45,9 +64,9 @@
 </template>
 
 <script>
-    import LanguageSwitcher from "./components/LanguageSwitcher";
     require('@/assets/css/style.css');
-    export default {
-        components: {LanguageSwitcher}
-    }
+    $(document).on('click', '#toggle-menu', function(){
+        $('#mobile-menu').fadeIn(300);
+        $('main').css('display', 'none');
+    });
 </script>

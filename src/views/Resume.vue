@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <section id="resume">
-            <h1 id="resume-title">Resume</h1>
+            <h1 id="resume-title">RÉSUMÉ</h1>
 
             <h4 class="mt-5 font-weight-bold">Skills</h4>
 
@@ -121,12 +121,12 @@
             <div class="row">
 
                 <div class="col-12">
-                    <div class="school">Grafisch Lyceum Utrecht</div>
+                    <div class="school">Grafisch Lyceum Utrecht <small>MBO4</small></div>
                     <div class="school-period">2017 - Present</div>
                 </div>
 
                 <div class="col-12">
-                    <div class="school">CSG Willem de Zwijger</div>
+                    <div class="school">CSG Willem de Zwijger <small>VMBO-T</small></div>
                     <div class="school-period">2012 - 2017</div>
                 </div>
 
