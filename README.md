@@ -1,4 +1,4 @@
-# mysite
+# u525916 (Sid van Vliet)
 
 ## Project setup
 ```
