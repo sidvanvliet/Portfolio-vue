@@ -3,7 +3,10 @@
 
         <section id="me">
 
-            <div id="name">Sid van Vliet</div>
+            <div id="name">
+                Sid van Vliet
+                <img src="img/logo.png" id="vue" alt="Vue">
+            </div>
             <div id="job">Full-stack Web Developer</div>
 
             <p id="desc">

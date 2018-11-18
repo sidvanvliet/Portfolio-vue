@@ -61,6 +61,13 @@ body{
     opacity:0.3;
 }
 
+#vue{
+    width:32px;
+    height:32px;
+    position:relative;
+    top:-30px;
+}
+
 #socials{
     margin-top:10px;
 }
@@ -217,9 +224,12 @@ main section #contact{
     height:20px;
 }
 
+iframe{
+    overflow:hidden;
+}
+
 #send-btn{
     border-radius:0 !important;
-    display:none;
 }
 
 .rhl{
@@ -411,6 +421,9 @@ footer{
     }
     .corner-ribbon{
         display:block;
+    }
+    #vue{
+        display:none;
     }
 }
 
