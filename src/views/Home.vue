@@ -5,7 +5,7 @@
 
             <div id="name">
                 Sid van Vliet
-                <img src="img/logo.png" id="vue" alt="Vue">
+                <!-- <img src="img/logo.png" id="vue" alt="Vue"> -->
             </div>
             <div id="job">Full-stack Web Developer</div>
 

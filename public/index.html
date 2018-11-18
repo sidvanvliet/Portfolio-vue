@@ -25,18 +25,12 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
 
         <title>Sid van Vliet</title>
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109222506-1"></script>
-        <script type="text/javascript">
-            function resizeIframe(obj){
-                obj.style.height = 0;
-                obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
-            }
-        </script>
         <script>
+            console.log('This site was made by Sid van Vliet 🙋 using Vue.js 🚀')
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
@@ -65,35 +59,6 @@
                 $('#mobile-menu').fadeOut(300);
                 $('main').css('display', 'block');
             }
-            $(document).on('click', '#send-btn', function(){
-
-                e.preventDefault();
-
-                $('#send-btn').prop('disabled', false);
-                $('#send-btn').html('Sending..');
-
-                $.ajax({
-                    type: 'post',
-                    url:  'contact.php',
-                    data: $('#contact-form').serialize(),
-                    success: function (output) {
-                        $('#form-p1').fadeOut(500, function(){
-
-                            if(output == "OK"){
-
-                                $('#form-p2').fadeIn();
-
-                            } else {
-
-                                alert("Something went wrong.. The mail was not sent! You may manually email me at: sid@studio-27.nl");
-
-                            }
-
-                        });
-                    }
-                });
-
-            });
         </script>
 
     </body>
